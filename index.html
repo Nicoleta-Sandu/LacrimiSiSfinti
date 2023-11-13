@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Lacrimi și Sfinți</title>
+  <meta name="title" content="Lacrimi și Sfinți">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text">Lacrimi și Sfinți</p>
+  </div>
+
+
+
+  <!-- 
+    - #TOP BAR
+  -->
+
+  <div class="topbar">
+    <div class="container">
+
+      <address class="topbar-item">
+        <div class="icon">
+          <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <a href="https://maps.app.goo.gl/wx6so49kNX8W1ATM9" target="_blank">
+         <span class="span">
+          Șepcari 16, Centrul Vechi, București, România
+         </span>
+        </a>
+      </address>
+
+      <div class="separator"></div>
+
+      <div class="topbar-item item-2">
+        <div class="icon">
+          <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">Zilnic: 12.30-01.00</span>
+      </div>
+
+      <a href="tel:+40725558286" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">+40725558286</span>
+      </a>
+
+      <div class="separator"></div>
+
+      <a href="mailto:contact@lacrimisisfinti.com" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">contact@lacrimisisfinti.com</span>
+      </a>
+
+    </div>
+  </div>
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.svg" width="100" height="40" alt="Lacrimi și Sfinți - Home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.svg" width="100" height="40" alt="Lacrimi și Sfinți - Home">
+        </a>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link hover-underline active">
+              <div class="separator"></div>
+
+              <span class="span">Acasă</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#menu" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Meniu</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Despre noi</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#reservation" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Contact</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="text-center">
+          <p class="headline-1 navbar-title">Vizitați-ne</p>
+
+          <address class="body-4">
+            Șepcari 16, Centrul Vechi, <br>
+            București, România
+          </address>
+
+          <p class="body-4 navbar-text">Zilnic: 12.30-01.00</p>
+
+          <a href="mailto:contact@lacrimisisfinti.com" class="body-4 sidebar-link">contact@lacrimisisfinti.com</a>
+
+          <div class="separator"></div>
+
+          <p class="contact-label">Rezervare</p>
+
+          <a href="tel:+40725558286" class="body-1 contact-number hover-underline">
+            +40725558286
+          </a>
+        </div>
+
+      </nav>
+
+      <a href="#reservation" class="btn btn-secondary">
+        <span class="text text-1">Găsiți o masă</span>
+
+        <span class="text text-2" aria-hidden="true">Găsiți o masă</span>
+      </a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero text-center" aria-label="home" id="home">
+
+        <ul class="hero-slider" data-hero-slider>
+
+          <li class="slider-item active" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/hero-slider-1.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">Mâncare tradițională</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Rețete vechi reinterpretate
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal"></p>
+
+            <a href="#menu" class="btn btn-primary slider-reveal">
+              <span class="text text-1">Vedeți meniul nostru</span>
+
+              <span class="text text-2" aria-hidden="true">Vedeți meniul nostru</span>
+            </a>
+
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/hero-slider-2.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">experiență neobișnuită</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Rețete inspirate de tradiție
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal"></p>
+
+            <a href="#menu" class="btn btn-primary slider-reveal">
+              <span class="text text-1">Vedeți meniul nostru</span>
+
+              <span class="text text-2" aria-hidden="true">Vedeți meniul nostru</span>
+            </a>
+
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/hero-slider-3.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">delicios</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Unde fiecare aromă <br>
+              spune o poveste
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal"></p>
+
+            <a href="#menu" class="btn btn-primary slider-reveal">
+              <span class="text text-1">Vedeți meniul nostru</span>
+
+              <span class="text text-2" aria-hidden="true">Vedeți meniul nostru</span>
+            </a>
+
+          </li>
+
+        </ul>
+
+        <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+          <ion-icon name="chevron-back"></ion-icon>
+        </button>
+
+        <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+          <ion-icon name="chevron-forward"></ion-icon>
+        </button>
+
+        <a href="#reservation" class="hero-btn has-after">
+          <img src="./assets/images/hero-icon.png" width="48" height="48" alt="booking icon">
+
+          <span class="label-2 text-center span">Rezervați o masă</span>
+        </a>
+
+      </section>
+
+      
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service bg-black-10 text-center" aria-label="service">
+        <div class="container">
+
+          <p class="section-subtitle label-2">Arome neobișnuite</p>
+
+          <h2 class="headline-1 section-title">Oferim tot ceea ce este mai bun</h2>
+
+          <p class="section-text">
+            Orice produs din meniu este preparat doar cu ingrediente locale, organice: peștele este de captură, păsările sunt de curte, 
+            porcii și vițeii vin din ferme individuale mici.
+          </p>
+
+          <img src="./assets/images/shape-1.png" width="246" height="412" loading="lazy" alt="shape"
+            class="shape shape-1 move-anim">
+          <img src="./assets/images/shape-2.png" width="343" height="345" loading="lazy" alt="shape"
+            class="shape shape-2 move-anim">
+
+        </div>
+      </section>
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about text-center" aria-labelledby="about-label" id="about">
+        <div class="container">
+
+          <div class="about-content">
+
+            <p class="label-2 section-subtitle" id="about-label">Povestea noastră</p>
+
+            <p class="section-text">
+              Lacrimi și Sfinți este un restaurant românesc atipic cu o bucătărie modernă/contemporană. 
+              Rețete vechi de 100 de ani sunt reinterpretate și reașezate, arome pierdute, arome inventate, toate la un loc.
+              Mircea Dinescu redescoperă și reinventează în bucătăria de la Lacrimi și Sfinți mai mult decât mâncăruri și preparate, 
+              redescoperă și reinventează o cultură culinară autohtonă aproape pierdută sau, în cel mai bun caz, ignorată de peste un secol.
+              Amenajarea a fost făcută doar cu lemn recuperat. Orice bucată de lemn are cel puțin câteva zeci de ani. Ferestrele de la bucătărie 
+              vin dintr-o casă părăsită din comuna Perișorul judeţul Dolj, ușa de la bucătărie vine de la fostul dispensar din Cioroiași judeţul Dolj, 
+              ușa de intrare vine  dintr-o casă din Sighișoara, grinzile dintr-un hambar vechi, dulapurile din zona Mureș (fiecare din altă casă), 
+              peste 50 de scaune adunate din toate zonele, podeaua recuperată din scândură de șură. Obiectele noi sunt și ele făcute din lemn vechi 
+              recuperat. Lego-ul pentru decorațiuni vine din Copenhaga Lego Store și au fost folosite aproximativ 16000 de piese. Toate vasele au fost 
+              create de diverși artiști din: Vâlcea, Harghita, Sighișoara, Mediaș.
+            </p>
+
+            <div class="contact-label">Rezervări</div>
+
+            <a href="tel:+40725558286" class="body-1 contact-number hover-underline">+40725558286</a>
+
+          </div>
+
+          <figure class="about-banner">
+
+            <img src="./assets/images/about-banner.jpg" width="570" height="570" loading="lazy" alt="about banner"
+              class="w-100" data-parallax-item data-parallax-speed="1">
+
+            <div class="abs-img abs-img-1 has-before" data-parallax-item data-parallax-speed="1.75">
+              <img src="./assets/images/about-abs-image.jpg" width="285" height="285" loading="lazy" alt=""
+                class="w-100">
+            </div>
+
+          </figure>
+
+          <img src="./assets/images/shape-3.png" width="197" height="194" loading="lazy" alt="" class="shape">
+
+        </div>
+      </section>
+
+
+      <!-- 
+        - #SPECIAL DISH
+      -->
+
+      <section class="special-dish text-center" aria-labelledby="dish-label">
+
+        <div class="special-dish-banner">
+          <img src="./assets/images/special-dish-banner.jpg" width="940" height="873" loading="lazy" alt="special dish"
+            class="img-cover">
+        </div>
+
+        <div class="special-dish-content bg-black-10">
+          <div class="container">
+
+            <img src="./assets/images/badge-1.png" width="28" height="41" loading="lazy" alt="badge" class="abs-img">
+
+            <p class="section-subtitle label-2">Specialitatea casei</p>
+
+            <h2 class="headline-1 section-title">Vițel de Vreme Bună</h2>
+
+            <p class="section-text">
+                Filozofia bucătăriei noastre este una bazată pe sustenabilitate, inovație și tradiție. Fiecare ingredient ce intră în 
+                compoziția meniului nostru a fost ales ținând cont de următoarele principii: să fie local, să fie pe cât posibil de 
+                sezon și să fie cultivat sau crescut în condiții naturale.
+            </p>
+
+            <div class="wrapper">
+              <del class="del body-3">78.00 RON</del>
+
+              <span class="span body-1">60.00 RON</span>
+            </div>
+
+            <a href="#menu" class="btn btn-primary">
+              <span class="text text-1">Vedeți meniul</span>
+
+              <span class="text text-2" aria-hidden="true">Vedeți meniul</span>
+            </a>
+
+          </div>
+        </div>
+
+        <img src="./assets/images/shape-4.png" width="179" height="359" loading="lazy" alt="" class="shape shape-1">
+
+      </section>
+
+
+      <!-- 
+        - #MENU
+      -->
+
+      <section class="section menu" aria-label="menu-label" id="menu">
+        <div class="container">
+
+          <p class="section-subtitle text-center label-2">Selecții speciale</p>
+
+          <h2 class="headline-1 section-title text-center">Meniu</h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 93;">
+                  <img src="./assets/images/menu-1.png" width="100" height="100" loading="lazy" alt="Pastramă de Berbecuț"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Pastramă de Berbecuț</a>
+                    </h3>
+
+                    <span class="span title-2">65.00 RON</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Pastramă făcută în casă, sfârâită prin tigaie, servită cu ardei iute și mămăligă.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 93;">
+                  <img src="./assets/images/menu-2.png" width="100" height="100" loading="lazy" alt="Copan de Rață Mută"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Copan de Rață Mută</a>
+                    </h3>
+
+                    <span class="span title-2">58.00 RON</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Copan de rață de curte pe varză călită cu vin la cuptor.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 93;">
+                  <img src="./assets/images/menu-3.png" width="100" height="100" loading="lazy" alt="Fasole Bătută"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Fasole Bătută</a>
+                    </h3>
+
+                    <span class="span title-2">27.00 RON</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Fasole albă bătută cu legume șe ceapă caramelizată.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 92;">
+                  <img src="./assets/images/menu-4.png" width="100" height="100" loading="lazy" alt="Icre de Știucă"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Icre de Știucă</a>
+                    </h3>
+
+                    <span class="badge label-1">Nou</span>
+
+                    <span class="span title-2">48.00 RON</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Icre cu pâine de casă prăjită și ceapă verde.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 93;">
+                  <img src="./assets/images/menu-5.png" width="100" height="100" loading="lazy" alt="Salată Balcanică"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Salată Balcanică</a>
+                    </h3>
+
+                    <span class="span title-2">28.00 RON</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Vinete, ardei și roșii coapte pe plită, aromate pe sub mână cu ceapă verde, usturoi, ardei iute și ulei de floarea soarelui.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 93;">
+                  <img src="./assets/images/menu-6.png" width="100" height="100" loading="lazy" alt="Jumări Universitare"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Jumări Universitare</a>
+                    </h3>
+
+                    <span class="span title-2">38.00 RON</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Jumări de rață și gâscă de curte cu muștar.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+
+          <img src="./assets/images/shape-5.png" width="921" height="1036" loading="lazy" alt="shape"
+            class="shape shape-2 move-anim">
+          <img src="./assets/images/shape-6.png" width="343" height="345" loading="lazy" alt="shape"
+            class="shape shape-3 move-anim">
+
+        </div>
+      </section>
+
+
+       <!-- 
+        - #TESTIMONIALS
+       -->
+
+      <section class="section testi text-center has-bg-image" 
+        style="background-image: url('./assets/images/testimonial-bg.jpg')" aria-label="testimonials">
+        <div class="container">
+
+          <div class="quote">”</div>
+
+          <p class="headline-2 testi-text">
+            Mâncare și poezie! Gusturi românești veritabile, asortate cu un vin de casă aromat ce te îmbie la a 
+            mai sta și povesti și mânca și tot povesti! Atmosferă plăcută a Centrului Vechi, loc minunat de petrecut 
+            împreuna cu cei dragi!
+          </p>
+          <br>
+          <div class="quote">”</div>
+
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+
+          <div class="profile">
+            <p class="label-2 profile-name">Dabija Ioan</p>
+          </div>
+
+        </div>
+      </section>
+
+
+
+      <!-- 
+        - #RESERVATION
+      -->
+
+      <section class="reservation" id="reservation">
+        <div class="container">
+
+          <div class="form reservation-form bg-black-10">
+
+            <form action="" class="form-left">
+
+              <h2 class="headline-1 text-center">Rezervări online</h2>
+
+              <div class="input-wrapper">
+                <input type="text" name="name" placeholder="Numele" autocomplete="off" class="input-field">
+
+                <input type="tel" name="phone" placeholder="Numărul de telefon" autocomplete="off" class="input-field">
+              </div>
+
+              <div class="input-wrapper">
+
+                <div class="icon-wrapper">
+                  <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+                  <select name="person" class="input-field">
+                    <option value="1-person">1 Persoană</option>
+                    <option value="2-person">2 Persoane</option>
+                    <option value="3-person">3 Persoane</option>
+                    <option value="4-person">4 Persoane</option>
+                    <option value="5-person">5 Persoane</option>
+                    <option value="6-person">6 Persoane</option>
+                    <option value="7-person">7 Persoane</option>
+                  </select>
+
+                  <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div class="icon-wrapper">
+                  <ion-icon name="calendar-clear-outline" aria-hidden="true"></ion-icon>
+
+                  <input type="date" name="reservation-date" class="input-field">
+
+                  <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div class="icon-wrapper">
+                  <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                  <select name="person" class="input-field">
+                    <option value="12:30">12 : 30</option>
+                    <option value="13:30">13 : 30</option>
+                    <option value="14:30">14 : 30</option>
+                    <option value="15:30">15 : 30</option>
+                    <option value="16:30">16 : 30</option>
+                    <option value="17:30">17 : 30</option>
+                    <option value="18:30">18 : 30</option>
+                    <option value="19:30">19 : 30</option>
+                    <option value="20:30">20 : 30</option>
+                    <option value="21:30">21 : 30</option>
+                    <option value="22:30">22 : 30</option>
+                    <option value="23:30">23 : 30</option>
+                  </select>
+
+                  <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                </div>
+
+              </div>
+
+              <textarea name="message" placeholder="Mesaj" autocomplete="off" class="input-field"></textarea>
+
+              <button type="submit" class="btn btn-secondary">
+                <span class="text text-1">Rezervați o masă</span>
+
+                <span class="text text-2" aria-hidden="true">Rezervați o masă</span>
+              </button>
+
+            </form>
+
+            <div class="form-right text-center" style="background-image: url('./assets/images/form-pattern.png')">
+              
+              <h2 class="headline-1 text-center">Contact</h2>
+
+              <p class="contact-label">Rezervări</p>
+
+              <a href="tel:+88123123456" class="body-1 contact-number hover-underline">+40725558286</a>
+
+              <div class="separator"></div>
+
+              <p class="contact-label">Locație</p>
+
+              <address class="body-4">
+                Șepcari 16, Centrul Vechi, <br>
+                București, România
+              </address>
+
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11396.507812827782!2d26.1028891!3d44.430558!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1ff3e4a1aaaab%3A0xadbf0152d2c5b88f!2zTGFjcmltaSDImWkgU2ZpbsibaQ!5e0!3m2!1sen!2s!4v1699012312316!5m2!1sen!2s" 
+              width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+    <!-- 
+    - #FOOTER
+    -->
+
+    <footer class="footer section has-bg-image text-center"
+    style="background-image: url('./assets/images/footer-bg.jpg')">
+    <div class="container">
+
+        <div class="footer-top grid-list">
+
+        <div class="footer-brand has-before has-after">
+
+            <a href="#" class="logo">
+            <img src="./assets/images/logo.svg" width="160" height="50" loading="lazy" alt="Lacrimi și Sfinți home">
+            </a>
+
+            <address class="body-4">
+                Șepcari 16, Centrul Vechi, București, România
+            </address>
+
+            <a href="mailto:contact@lacrimisisfinti.com" class="body-4 contact-link">contact@lacrimisisfinti.com</a>
+
+            <a href="tel:+40725558286" class="body-4 contact-link">Rezervări : +40725558286</a>
+
+            <p class="body-4">
+               Zilnic: 12.30-01.00
+            </p>
+
+            <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+            </div>
+
+            <p class="title-1">Abonați-vă la newsletter</p>
+            <br>
+
+            <form action="" class="input-wrapper">
+            <div class="icon-wrapper">
+                <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+                <input type="email" name="email_address" placeholder="Email" autocomplete="off" class="input-field">
+            </div>
+
+            <button type="submit" class="btn btn-secondary">
+                <span class="text text-1">Abonați-vă</span>
+
+                <span class="text text-2" aria-hidden="true">Abonați-vă</span>
+            </button>
+            </form>
+
+        </div>
+
+        <ul class="footer-list">
+
+            <li>
+            <a href="#home" class="label-2 footer-link hover-underline">Acasă</a>
+            </li>
+
+            <li>
+            <a href="#menu" class="label-2 footer-link hover-underline">Meniu</a>
+            </li>
+
+            <li>
+            <a href="#about" class="label-2 footer-link hover-underline">Despre noi</a>
+            </li>
+
+            <li>
+            <a href="#reservation" class="label-2 footer-link hover-underline">Contact</a>
+            </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+            <li>
+            <a href="#" class="label-2 footer-link hover-underline">Facebook</a>
+            </li>
+
+            <li>
+            <a href="#" class="label-2 footer-link hover-underline">Instagram</a>
+            </li>
+
+            <li>
+            <a href="#" class="label-2 footer-link hover-underline">Twitter</a>
+            </li>
+
+            <li>
+            <a href="#" class="label-2 footer-link hover-underline">Youtube</a>
+            </li>
+
+
+        </ul>
+
+        </div>
+
+        <div class="footer-bottom">
+
+        <p class="copyright">
+            &copy; 2023 Lacrimi și Sfinți 
+        </p>
+
+        </div>
+
+    </div>
+    </footer>
+
+
+
+    <!-- 
+    - #BACK TO TOP
+    -->
+
+    <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+    </a>
+
+
+
+    <!-- 
+    - custom js link
+    -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- 
+    - ionicon link
+    -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+   </body>
+
+</html>
+
